@@ -374,7 +374,7 @@ public class JobTemplate extends SimpleJobTemplate {
 		int result = drmaa_set_attribute(
 				jtPointer.get(),
 				pointerToCString(DRMAA_INPUT_PATH),
-				pointerToCString(this.inputPath),
+				pointerToCString(inputPath),
 				eb.getPointer(),
 				eb.getLength());
 		if (result != DRMAA_ERRNO_SUCCESS) {

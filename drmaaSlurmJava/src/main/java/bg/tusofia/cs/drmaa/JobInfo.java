@@ -168,5 +168,4 @@ public class JobInfo implements org.ggf.drmaa.JobInfo {
 		}
 		return aborted.get() != 0;
 	}
-
 }
